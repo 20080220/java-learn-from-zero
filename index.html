@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>从0学Java · 零基础入门教程</title>
+<meta name="description" content="为零基础小白准备的 Java 入门学习网站：通俗讲解 + 代码示例 + 小测验，一步步带你入门 Java。">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="topbar">
+  <div class="topbar-inner">
+    <a href="#/" class="logo"><span class="logo-emoji">☕</span> 从0学Java</a>
+    <div class="topbar-right">
+      <div class="progress-wrap" title="整体学习进度">
+        <div class="progress-track"><div id="progressFill" class="progress-fill"></div></div>
+        <span id="progressText" class="progress-text">0%</span>
+      </div>
+      <button id="menuBtn" class="menu-btn" aria-label="打开目录">☰</button>
+    </div>
+  </div>
+</div>
+
+<aside id="sidebar">
+  <div class="sidebar-head">
+    <span class="logo-emoji">☕</span> 课程目录
+  </div>
+  <nav id="chapterList" class="chapter-list"></nav>
+  <div class="sidebar-footer">
+    <button id="resetBtn" class="reset-btn" title="清空所有学习进度">重置学习进度</button>
+  </div>
+</aside>
+<div id="overlay"></div>
+
+<main id="main">
+  <div id="view" class="view"></div>
+</main>
+
+<script src="js/content.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
